@@ -1,12 +1,12 @@
 /*=================================================================
-                     common Style
+                Header section Style
 ===================================================================*/
 
 .nav-shadow{
     box-shadow: 1px 1px 11px #9e9e9e7e;
 }
 .slider-margin{
-    margin: 160px 0px 50px;
+    margin: 160px 0px 100px;
 }
 .slider-bg{
     background-color: #fcedeb;
@@ -22,15 +22,27 @@
 
 .panda-buying-btn{
     color: #fff;
-    background-image:linear-gradient(#ff7fb0, #ff136f);
+    background-image:linear-gradient(#fd77ab, #ff136f);
     border-radius: 8px;
     padding: 9px 25px;
     border: none;
+    box-shadow: 1px 1px  10px -1px #646464b9;
+}
+/*=================================================================
+                  Product catagories Style
+===================================================================*/
+.bag-bg{
+   background-color: #da70d6;
+   color: #fff;
+}
+.watch-bg{
+  background-color:#ffa500;
+  color: #fff;
 }
 
-
-
-
-
+.shoes-bg{
+    background-color: #0000ff;
+    color: #fff;
+}
 
 
