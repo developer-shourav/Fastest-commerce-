@@ -1,7 +1,28 @@
 /*=================================================================
+                         Common Style
+===================================================================*/
+footer a{
+    text-decoration: none;
+   
+}
+
+
+
+/*=================================================================
                 Header section Style
 ===================================================================*/
+.nav-color-home{
+    color:#ffbb00;
+    text-shadow: 1px 1px 1px #949494;
+    font-weight: bold;
+}
 
+.nav-manu-items-color{
+    color:#FF277C;
+    text-shadow: 1px 1px 1px #a8a8a8de;
+    font-weight: bold;
+
+}
 .nav-shadow{
     box-shadow: 1px 1px 11px #9e9e9e7e;
 }
@@ -32,7 +53,7 @@
                   Product catagories Style
 ===================================================================*/
 .bag-bg{
-   background-color: #da70d6;
+   background-color: #ff713df5;
    color: #fff;
 }
 .watch-bg{
@@ -41,8 +62,22 @@
 }
 
 .shoes-bg{
-    background-color: #0000ff;
+     background-color: #01dbc2;
+    
     color: #fff;
 }
 
-
+.tv-bg{
+    background-color: #5498ff;
+    color: #fff;
+}
+.headphone-bg{
+    background-color:#ff136f;
+    color:#fff ;
+}
+.mobile-bg{
+     background-color: #D800F7;
+   
+    color: #fff;
+    
+}
