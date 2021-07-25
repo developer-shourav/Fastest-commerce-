@@ -6,7 +6,14 @@ footer a{
    
 }
 
-
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
 
 /*=================================================================
                 Header section Style
@@ -43,11 +50,18 @@ footer a{
 
 .panda-buying-btn{
     color: #fff;
-    background-image:linear-gradient(#fd77ab, #ff136f);
+    background-image:linear-gradient(#ff89b6, #d80053);
     border-radius: 8px;
     padding: 9px 25px;
+    margin-left: 5px;
     border: none;
     box-shadow: 1px 1px  10px -1px #646464b9;
+    transition:all .3s ease;
+}
+
+.panda-buying-btn:hover{
+   transform: scale(1.1);
+   box-shadow: 0px 3px 15px -1px #646464b9;
 }
 /*=================================================================
                   Product catagories Style
@@ -85,5 +99,5 @@ footer a{
 
 .all-product-name{
     color:#fcc213;
-    text-shadow: 1px 1px 1px #3a3a3abd;
+    text-shadow: 1px 1px 1px #242424bd;
 }
